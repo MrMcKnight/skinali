@@ -106,9 +106,11 @@ body {
   background-color: #507fe1;
   transition: 0.2s;
   transform: translateY(-200%);
+  opacity: 0;
 }
 .menu_active {
   transform: translateY(0);
+  opacity: 1;
 }
 .menu__nav {
   display: flex;
@@ -182,8 +184,9 @@ body {
 .hero {
   background: #f1f1f1 url("../img/hero/hero-bg.jpg") no-repeat center;
   background-size: contain;
-  padding-top: 170px;
+  padding-top: 120px;
   padding-bottom: 270px;
+  margin-top: 80px;
 }
 .hero__title {
   font-size: 30px;
@@ -196,9 +199,26 @@ body {
   margin-bottom: 67px;
 }
 
+@media (max-width: 1610px) {
+  .hero {
+    background-position: top 50px right;
+  }
+}
 @media (max-width: 991px) {
   .hero {
-    background-size: cover;
-    background-position: top left 30%;
+    background-size: 100%;
+    background-position: top 80px right 30px;
+  }
+}
+@media (max-width: 650px) {
+  .hero {
+    background-size: 100%;
+    background-position: top right 30px;
+  }
+}
+@media (max-width: 410px) {
+  .hero {
+    background-size: 100%;
+    background-position: top right 110px;
   }
 }/*# sourceMappingURL=style.css.map */
