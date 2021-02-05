@@ -43,10 +43,10 @@ body {
 }
 
 .button-o {
-  border: 2px solid #507fe1;
+  border: 2px solid #CFB78C;
   padding: 17px 22px;
   font-size: 12px;
-  color: #507fe1;
+  color: #CFB78C;
   text-transform: uppercase;
   background-color: transparent;
   font-family: "Proxima Nova Semibold", sans-serif;
@@ -56,7 +56,7 @@ body {
   border: none;
   text-transform: uppercase;
   padding: 25px 45px;
-  background-color: #507fe1;
+  background-color: #CFB78C;
   color: #ffffff;
   font-family: "Proxima Nova Semibold", sans-serif;
 }
@@ -103,7 +103,7 @@ body {
   left: 0;
   width: 100%;
   padding: 16px 0;
-  background-color: #507fe1;
+  background-color: #CFB78C;
   transition: 0.2s;
   transform: translateY(-200%);
   opacity: 0;
@@ -132,8 +132,8 @@ body {
   background-color: transparent;
   border-top: none;
   border-bottom: none;
-  border-right: 1px solid rgba(81, 11, 186, 0.1);
-  border-left: 1px solid rgba(81, 11, 186, 0.1);
+  border-right: 1px solid rgba(235, 228, 219, 0.5);
+  border-left: 1px solid rgba(235, 228, 219, 0.5);
   height: 80px;
   width: 70px;
 }
@@ -141,7 +141,7 @@ body {
   display: block;
   width: 20px;
   height: 3px;
-  background-color: #89a9eb;
+  background-color: #E2CBB1;
   margin: 2px 0;
 }
 
