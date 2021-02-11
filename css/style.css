@@ -42,6 +42,10 @@ body {
   color: #262626;
 }
 
+img {
+  max-width: 100%;
+}
+
 .section {
   padding: 100px 0;
 }
@@ -63,6 +67,7 @@ body {
   text-transform: uppercase;
   background-color: transparent;
   font-family: "Proxima Nova Semibold", sans-serif;
+  text-decoration: none;
 }
 
 .button {
@@ -72,6 +77,21 @@ body {
   background-color: #507fe1;
   color: #ffffff;
   font-family: "Proxima Nova Semibold", sans-serif;
+  text-decoration: none;
+}
+.button-fitting {
+  color: #507fe1;
+  background-color: #fff;
+}
+.button-add {
+  background-color: #7c9fe8;
+  color: #fff;
+}
+.button-like {
+  background-color: #507fe1;
+  height: 30px;
+  border: none;
+  width: 30px;
 }
 
 .bg-secondary {
@@ -380,5 +400,113 @@ input[type=checkbox]:checked + label::before {
 @media (max-width: 768px) {
   .features-block__item {
     flex-basis: 100%;
+  }
+}
+.catalog {
+  background-color: #f5f6f8;
+}
+.catalog-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.catalog__card {
+  margin-bottom: 30px;
+}
+.catalog-card {
+  position: relative;
+  max-width: 570px;
+  box-shadow: 7px 5px 21px rgba(0, 0, 0, 0.1);
+}
+.catalog-card__buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+.catalog-card__button {
+  border: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 10px;
+  height: 30px;
+}
+.catalog-card__tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #7c9fe8;
+}
+.catalog-card__image {
+  display: block;
+}
+.catalog__link {
+  text-align: center;
+  margin-top: 60px;
+}
+.catalog__link-more {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+.catalog__description {
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  .catalog-block {
+    justify-content: center;
+  }
+  .catalog-card {
+    max-width: 470px;
+  }
+}
+.blog__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.blog__title {
+  font-size: 24px;
+  font-family: "Proxima Nova Semibold", sans-serif;
+}
+.blog__link-more {
+  color: #507fe1;
+  font-size: 16px;
+}
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog-list__image {
+  height: 200px;
+  overflow: hidden;
+}
+.blog-list__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80px;
+}
+.blog-list__card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+}
+.blog-card {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  .blog-list {
+    justify-content: space-around;
+  }
+  .blog-list__card {
+    margin-right: 30px;
+    margin-left: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
